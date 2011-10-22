@@ -1,0 +1,7 @@
+dmBehaviors:
+  jqtoggle:
+    section: jQuery Effects
+    name: Toggle
+    #icon: /dmPrettyPhotoBehaviorPlugin/images/icon.png
+    form: dmJQueryEffectsToggleForm
+    view: dmJQueryEffectsToggleView
