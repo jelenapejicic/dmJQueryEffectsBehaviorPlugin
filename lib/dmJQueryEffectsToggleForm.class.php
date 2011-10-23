@@ -29,8 +29,8 @@ class dmJQueryEffectsToggleForm extends dmBehaviorForm {
     }
     
     public function render($attributes = array()) {
-        $formRenderer = new dmFrontFormRenderer(array(
-            new dmFrontFormSection(
+        $formRenderer = new dmDialogFormRenderer(array(
+            new dmDialogFormSection(
                     array(
                         array("name"=>'toggler', "is_big"=>true),
                         array("name"=>'target', "is_big"=>true),
